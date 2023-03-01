@@ -8,6 +8,7 @@
 header {
     position: -webkit-sticky; /* Safari */
     position: sticky;
+    top:0;
     color: white;
 }
 
@@ -181,12 +182,12 @@ header .drop__down li:nth-child(2):hover .fa {
 }
 .box{
     padding: 2px 3px;
-    margin-left: 10%;
+    margin-bottom: 15px;
 }
 
 .left-part{
     float: right;
-    width: 1200px;
+    width: 1240px;
     height: 400px;
     display: inline;
     padding: 15px 5px 0 5px;
@@ -196,10 +197,6 @@ header .drop__down li:nth-child(2):hover .fa {
 .right-part{
     float: left;
     margin-left: 5px;
-    margin-right: 40px;
-    width: 500px;
-    height: 50vh;
-    /* box-shadow: 5px 0px 8px 3px rgba(0, 0, 0, 0.2); */
 
 }
 .right-part img{
@@ -214,7 +211,6 @@ header .drop__down li:nth-child(2):hover .fa {
     max-height: 100%;
     text-align: center;
     background-color: white;
-    /* box-shadow: 0px 0px 2px 1px rgb(201, 201, 201); */
 }
 
 .card{
@@ -229,7 +225,7 @@ header .drop__down li:nth-child(2):hover .fa {
 
 .products {
     
-    width: 1587px;
+    width: 1500px;
     height: 450px;
     margin: 10px 400px 10px 200px;
     float: left;
@@ -246,6 +242,10 @@ header .drop__down li:nth-child(2):hover .fa {
     padding-left: 20px;
     float: left;
     padding-top: 2%;
+}
+#viewALL{
+    width: 100px;
+    height: 40px;
 }
 .text1 {
     color: gray;
@@ -278,7 +278,9 @@ header .drop__down li:nth-child(2):hover .fa {
     ::placeholder {
         font-size: 13px;
     }
-
+    .content{
+        width: 150vh;
+    }
     .nav__bar .bar {
         display: block;
     }
@@ -296,5 +298,8 @@ header .drop__down li:nth-child(2):hover .fa {
         left: 1rem;
         right: 1rem;
         width: unset;
+    }
+    .content{
+        width: 200vh;
     }
 }
